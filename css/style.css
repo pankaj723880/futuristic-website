@@ -1036,9 +1036,9 @@ body > *:not(.particles) {
     display: inline-flex;
   }
 
-  .nav-toggle:checked + .nav-toggle-label + .nav-links {
-    display: flex;
-  }
+  .nav-toggle:checked ~ .nav-links {
+  display: flex;
+}
 
   .nav-toggle:checked + .nav-toggle-label span {
     background: transparent;
